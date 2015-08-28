@@ -1,0 +1,19 @@
+{
+  "name": "pe-setup",
+  "version": "0.0.1",
+  "description": "Helps set up your new pe-seed project.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Wermert <cwermert@commandalkon.com> (http://commandalkon.com/)",
+  "license": "WTFPL",
+  "preferGlobal": true,
+  "bin": {
+    "pe-setup": "index.js"
+  },
+  "dependencies": {
+    "git-rev": "^0.2.1",
+    "inquirer": "^0.9.0",
+    "replace": "^0.3.0"
+  }
+}
